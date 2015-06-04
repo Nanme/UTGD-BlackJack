@@ -5,10 +5,10 @@ public class Deck implements Comparable{
 
 	Deck(){
 		ArrayList<String> color = new ArrayList<String>();
-		color.add("Spade");
-		color.add("Heart");
-		color.add("Diamond");
-		color.add("Luck");
+		color.add("♠");
+		color.add("♥");
+		color.add("♦");
+		color.add("♣");
 
 		Card c = new Card();
 		for (int i=0;i<4;i++) {

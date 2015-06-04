@@ -14,7 +14,7 @@ public class Player {
 	}
 
 	public String toString(){
-		String buffer = "Main :\n";
+		String buffer = "Joueur :\n";
 
 		for (Card card : listCard){
 			buffer += card + "\n";
