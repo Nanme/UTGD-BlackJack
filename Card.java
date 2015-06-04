@@ -1,22 +1,22 @@
 public class Card {
 	private int value;
-	private char color;
+	private String color;
 
 	Card(){
 		value = 0;
-		color = 0;
+		color = null;
 	}
 
 	public int getValue(){
 		return this.value;
 	}
-	public char getColor(){
+	public String getColor(){
 		return this.color;
 	}
 	public void setValue(int val){
 		this.value = val;
 	}
-	public void getColor(char color){
+	public void setColor(String color){
 		this.color = color;
 	}
 	public String toString(){
