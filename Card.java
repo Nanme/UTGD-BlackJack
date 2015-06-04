@@ -13,6 +13,12 @@ public class Card {
 	public char getColor(){
 		return this.color;
 	}
+	public void setValue(int val){
+		this.value = val;
+	}
+	public void getColor(char color){
+		this.color = color;
+	}
 	public String toString(){
 		String buffer;
 
