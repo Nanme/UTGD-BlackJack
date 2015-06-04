@@ -10,7 +10,7 @@ public class Deck implements Comparable{
 		color.add('D');
 		color.add('T');
 
-		Card c;
+		Card c = new Card();
 		for (int i=0;i<4;i++) {
 			for (int j=1;j<53;j++) {
 				c.setValue(j);
