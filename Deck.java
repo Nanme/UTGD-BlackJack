@@ -1,4 +1,4 @@
-import java.util.*
+import java.util.*;
 
 public class Deck implements Comparable{
 	private ArrayList deck;
